@@ -1,0 +1,22 @@
+{
+  "name": "korall",
+  "displayName": "Korall",
+  "description": "Muted coral color theme",
+  "version": "0.0.1",
+  "publisher": "sjovik",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Korall",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Korall.json"
+      }
+    ]
+  }
+}
