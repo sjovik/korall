@@ -4,6 +4,16 @@
   "description": "Muted coral color theme",
   "version": "0.0.1",
   "publisher": "sjovik",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjovik/korall"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "coral",
+    "muted"
+  ],
   "engines": {
     "vscode": "^1.84.0"
   },
