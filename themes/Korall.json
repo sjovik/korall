@@ -156,7 +156,7 @@
     "sideBarSectionHeader.border": "#292A3060",
     "sideBarSectionHeader.foreground": "#FFB4A2",
     "sideBarTitle.foreground": "#D5D5D5",
-    "sideBar.dropBackground": "#ff0000",
+    "sideBar.dropBackground": "#292A30",
     "statusBar.background": "#292A30",
     "statusBar.border": "#00000000",
     "statusBar.debuggingBackground": "#E5989B",
