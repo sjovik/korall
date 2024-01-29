@@ -277,8 +277,9 @@
         "meta.object.member",
         "keyword.other.template",
         "keyword.other.substitution",
-        "entity.name.tag.reference.scss",
-        "keyword.operator"
+        "keyword.operator.assignment",
+        "storage.type.function",
+        "entity.name.tag.reference.scss"
       ],
       "settings": {
         "foreground": "#A7A8AF"
@@ -297,20 +298,22 @@
     {
       "scope": [
         "variable",
+        "variable.other.readwrite",
+        "variable.object.property",
+        "variable.parameter",
         "keyword.control.at-rule",
-        "punctuation.terminator.rule.css",
         "keyword.control.operator",
+        "punctuation.terminator.rule.css",
         "punctuation.definition.entity.css",
-        "keyword.operator.assignment.js",
-        "punctuation.separator.comma.js",
-        "punctuation.definition.binding-pattern.object.js"
+        "keyword.operator.type.annotation",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#D5D5D5"
       }
     },
     {
-      "scope": ["keyword.control", "storage.type", "storage.modifier"],
+      "scope": ["keyword.control", "storage.type", "storage.modifier", "keyword.operator"],
       "settings": {
         "foreground": "#8FC8DF",
         "fontStyle": ""
@@ -372,12 +375,7 @@
     },
     {
       "scope": [
-        "string",
-        "string.quoted.double.html",
-        "variable.other.constant.js",
         "variable.other.property",
-        "variable.parameter",
-        "variable.other.object.property.js",
         "string.quoted.double.json",
         "markup.fenced_code.block.markdown",
         "markup.inline.raw.string.markdown",
@@ -399,6 +397,7 @@
     },
     {
       "scope": [
+        "string",
         "punctuation.definition.string.begin.html",
         "punctuation.definition.string",
         "string.quoted.single",
@@ -474,12 +473,7 @@
       }
     },
     {
-      "scope": [
-        "support.type.property-name",
-        "variable.object.property",
-        "variable.other.readwrite",
-        "meta.object-literal.key"
-      ],
+      "scope": ["support.type.property-name"],
       "settings": {
         "foreground": "#A7A8AF"
       }
@@ -528,8 +522,7 @@
         "entity.name.tag.css",
         "keyword.control.conditional.js",
         "support.constant",
-        "entity.other.attribute-name.html",
-        "storage.type.function"
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#D5D5D5"
