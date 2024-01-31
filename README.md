@@ -1,3 +1,3 @@
 # Korall README
 
-A dark muted coral theme
+Dark coral. js, jsx, ts

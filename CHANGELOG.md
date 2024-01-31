@@ -6,10 +6,6 @@ All notable changes to the "korall" extension will be documented in this file.
 
 - Initial release
 
-## [0.0.4]
+## [0.0.6]
 
-- Most colors and theme
-
-## [0.0.5]
-
-- More colors and theming
+- Color tuning

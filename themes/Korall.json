@@ -278,7 +278,6 @@
         "keyword.other.template",
         "keyword.other.substitution",
         "keyword.operator.assignment",
-        "storage.type.function",
         "entity.name.tag.reference.scss"
       ],
       "settings": {
@@ -303,6 +302,8 @@
         "variable.parameter",
         "keyword.control.at-rule",
         "keyword.control.operator",
+        "keyword.operator.optional",
+        "keyword.operator.ternary",
         "punctuation.terminator.rule.css",
         "punctuation.definition.entity.css",
         "keyword.operator.type.annotation",
@@ -313,14 +314,14 @@
       }
     },
     {
-      "scope": ["keyword.control", "storage.type", "storage.modifier", "keyword.operator"],
+      "scope": ["keyword.control", "storage.type", "storage.type.function", "storage.modifier", "keyword.operator"],
       "settings": {
         "foreground": "#8FC8DF",
         "fontStyle": ""
       }
     },
     {
-      "scope": ["keyword.control.import", "keyword.control.export"],
+      "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.as", "keyword.control.from"],
       "settings": {
         "foreground": "#B49FC2"
       }
@@ -342,13 +343,7 @@
       }
     },
     {
-      "scope": [
-        "text.html.derivative",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter",
-        "meta.parameters",
-        "punctuation.definition.parameters"
-      ],
+      "scope": ["text.html.derivative", "meta.tag.sgml", "markup.deleted.git_gutter", "meta.parameters"],
       "settings": {
         "foreground": "#A7A8AF"
       }
@@ -376,7 +371,6 @@
     {
       "scope": [
         "variable.other.property",
-        "string.quoted.double.json",
         "markup.fenced_code.block.markdown",
         "markup.inline.raw.string.markdown",
         "variable.function",
@@ -389,7 +383,8 @@
         "variable.function.constructor",
         "entity.name.tag.other.html",
         "entity.name.tag.block.any.html",
-        "source.sass keyword.control"
+        "source.sass keyword.control",
+        "keyword.operator.logical"
       ],
       "settings": {
         "foreground": "#FFB4A2"
@@ -447,9 +442,15 @@
       }
     },
     {
-      "scope": ["support.class", "entity.name.tag"],
+      "scope": [
+        "support.type.property-name",
+        "support.class",
+        "entity.name.tag",
+        "punctuation.definition.parameters",
+        "meta.brace"
+      ],
       "settings": {
-        "foreground": "#A7A8AF"
+        "foreground": "#AAA7A8"
       }
     },
     {
@@ -467,15 +468,16 @@
       }
     },
     {
-      "scope": ["support.type", "entity.name"],
+      "scope": [
+        "support.type",
+        "entity.name",
+        "keyword.operator.optional_type",
+        "keyword.operator.list_type",
+        "keyword.operator.nullable_type",
+        "variable.language.relations.prisma"
+      ],
       "settings": {
         "foreground": "#99B7C5"
-      }
-    },
-    {
-      "scope": ["support.type.property-name"],
-      "settings": {
-        "foreground": "#A7A8AF"
       }
     },
     {

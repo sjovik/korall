@@ -2,7 +2,8 @@
   "name": "korall",
   "displayName": "Korall",
   "description": "Muted coral color theme",
-  "version": "0.0.5",
+  "icon": "img/icon.png",
+  "version": "0.0.6",
   "publisher": "sjovik",
   "repository": {
     "type": "git",
@@ -12,6 +13,9 @@
     "theme",
     "dark",
     "coral",
+    "js",
+    "jsx",
+    "ts",
     "muted"
   ],
   "engines": {
